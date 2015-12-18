@@ -1,0 +1,3 @@
+## Environment
+environment: production
+cdn_url: "http://craftworks-at.github.io/flock.email/"
