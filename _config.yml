@@ -1,0 +1,37 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "flock.email"
+keywords:    "flock, email, communication, one-to-many conversations, polls, questions and scheduling,  "
+description: "Making communication with a group of people a pleasure"
+source_link: "https://craftworks.at/"
+favicon:     #put a path like: "img/favicon.ico"
+touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: "UA-71534751-1"
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  grey:     '#CACACA'
+  intro:      '#122042'
+  what:     '#46B29D'
+  why:    '#F0CA4D'
+  features:    '#E37B40'
+  signup: '#DE4949'
+
