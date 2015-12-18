@@ -1,3 +1,5 @@
+---
+---
 .signup-form {
     height: 100%;
     padding: 0;
@@ -25,10 +27,9 @@ input[type="email"].form-input {
 button.submit-button {
     flex: 2;
     background: white;
-}
-
-button.submit-button:hover {
-    background: white;
+&:hover {
+     background: white;
+ }
 }
 
 form > label {
