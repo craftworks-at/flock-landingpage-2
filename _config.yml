@@ -6,8 +6,8 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
+exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+permalink: /
 timezone: null
 lsi: false
 markdown: kramdown
@@ -35,4 +35,3 @@ colors:
   why:    '#F0CA4D'
   features:    '#E37B40'
   signup: '#DE4949'
-
