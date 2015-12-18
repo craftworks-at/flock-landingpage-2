@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Thank you"
+permalink: /thanks/
+---
+
+<div id="main">
+
+    <div id="intro" class="section p-intro">
+
+        <div class="container center">
+            <h1 id="flockemail">flock.email</h1>
+
+            <p><span class="fa-stack subtlecircle" style="font-size:100px; background:rgba(255,166,0,0.1)">
+                <i class="fa fa-circle fa-stack-2x text-white"></i>
+                <i class="fa fa-pencil-square-o fa-stack-1x text-intro"></i>
+            </span></p>
+
+            <h2 id="making-communication-with-a-group-of-people-a-pleasure">Thank you for you interest</h2>
+
+        </div>
+    </div>
+
+    <div id="footer" class="section text-white">
+        <div class="container">
+            {% capture foottext %} {% include footer.md %} {% endcapture %}
+            {{ foottext | markdownify }}
+        </div>
+    </div>
+</div>

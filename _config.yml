@@ -18,7 +18,7 @@ highlighter: pygments
 title:       "flock.email"
 keywords:    "flock, email, communication, one-to-many conversations, polls, questions and scheduling,  "
 description: "Making communication with a group of people a pleasure"
-source_link: "https://craftworks.at/"
+source_link: "http://craftworks-at.github.io/flock.email/"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: "UA-71534751-1"
